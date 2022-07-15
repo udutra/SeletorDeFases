@@ -460,6 +460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169437500465562689}
   - component: {fileID: 6866509336712568366}
+  - component: {fileID: 7744898322148236281}
   m_Layer: 5
   m_Name: LevelCard
   m_TagString: Untagged
@@ -539,6 +540,21 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &7744898322148236281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169437500465562688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5978f3060e00b894a9f96001a7eeed94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: {fileID: 1169437498669451754}
+  levelDescription: {fileID: 1021043806634468123}
+  levelImage: {fileID: 3813230600262173460}
 --- !u!1 &8717272193662114487
 GameObject:
   m_ObjectHideFlags: 0
